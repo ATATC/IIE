@@ -25,7 +25,7 @@ dynamic();
 $(window).resize(dynamic);
 
 
-const SECTION_TITLES = ["Home", "About Us", "Service", "Educational Concept", "Contact"];
+const SECTION_TITLES = ["Home", "About Us", "Programs", "Educational Stories", "Contact"];
 const initNavigationBar = function (except = 0) {
     const nb = $("#nb");
     nb.append($("<img class='logo' src='assets/img/logo.png' alt='logo'>"));
