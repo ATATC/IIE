@@ -47,7 +47,7 @@ const initLanguageSwitch = function () {
 const initFooter = function () {
     const ft = $("#ft");
     const title = $("<h2>International Intelligent Education LTD.</h2>");
-    const contact = $("<ul><li><i class='fa fa-map'></i> Address: <a class='animated-color' href='geo:43.846963316993104, -79.38221174196637'>9011 Leslie St, Richmond Hill, ON L4B 3B6</a></li>" +
+    const contact = $("<ul><li><i class='fa fa-map'></i> Address: <a class='animated-color' href='geo:43.846963316993104, -79.38221174196637'>9011 Leslie St #301, Richmond Hill, ON L4B 3B6</a></li>" +
         "<li><i class='fa fa-phone'></i> Phone: <a class='animated-color' href='tel:+1647-985-6128'>(+1) 647-985-6128</a></li>" +
         "<li><i class='fa fa-envelope'></i> E-Mail: <a class='animated-color' href='mailto:info@inteledu.ca'>info@inteledu.ca</a></li></ul>");
     const bottom = $("<div class='horizontal'><h4><a class='animated-color'>Privacy Policy</a></h4>&nbsp;&nbsp;&nbsp;&nbsp;" +
