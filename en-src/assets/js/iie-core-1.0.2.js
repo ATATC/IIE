@@ -25,7 +25,7 @@ dynamic();
 $(window).resize(dynamic);
 
 
-const SECTION_TITLES = ["Home", "About Us", "Programs", "Educational Stories", "Contact"];
+const SECTION_TITLES = ["Home", "About Us", "Programs", "Contact"];
 const initNavigationBar = function (except = 0) {
     const nb = $("#nb");
     nb.append($("<img class='logo' src='assets/img/logo.png' alt='logo'>"));
@@ -56,7 +56,9 @@ const initFooter = function () {
     const socialMedia = $("<div class='horizontal'>" +
         "<a href='https://u.wechat.com/EOBe_ctsl_FVammRJZ3p_sQ'><img class='qrcode' src='assets/img/qrcode-wechat-1.png' alt='wechat qrcode for miss lu'></a>" +
         "<a href='https://u.wechat.com/kBpr2VkEMtouR3sRwJYCe-E'><img class='qrcode' src='assets/img/qrcode-wechat-2.png' alt='wechat qrcode for miss wu'></a>" +
-        "</div><p><a class='animated-color' href='https://www.xiaohongshu.com/user/profile/5e937e3700000000010099e5'>Xiaohongshu 小红书</a> | <a class='animated-color' href='https://www.zhihu.com/people/mumulanlan'>Zhihu 知乎</a></p>");
+        "</div>" +
+        "<p><img class='qrcode' src='assets/img/tiktok.jpg' alt='tiktok'></p>" +
+        "</p><p><a class='animated-color' href='https://www.xiaohongshu.com/user/profile/5e937e3700000000010099e5'>Xiaohongshu 小红书</a> | <a class='animated-color' href='https://www.zhihu.com/people/mumulanlan'>Zhihu 知乎</a></p>");
     const copyright = $("<p><em>Copyright &copy; IIE All rights reserved.</em> Site developed by 2016-Now ATATC with ❤.</p>");
     ft.append(title, contact, bottom, socialMedia, copyright);
 };
